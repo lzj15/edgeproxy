@@ -1,0 +1,16 @@
+{
+    "name": "edgeproxy",
+    "type": "module",
+    "private": true,
+    "dependencies": {
+        "@arrowood.dev/socket": "^0.2.0",
+        "@hono/cloudflare-workers": "^1.0.1",
+        "@hono/node-server": "^2.1.7",
+        "hono": "^4.13.18",
+        "ws": "^8.22.2"
+    },
+    "devDependencies": {
+        "@cloudflare/workers-types": "^5.20261110.1",
+        "@types/ws": "^8.18.2"
+    }
+}

@@ -1,0 +1,26 @@
+kind: wasmer.io/App.v0
+name: "002"
+owner: lzj15
+package: .
+app_id: da_2dAIdtrUP7kq
+annotations:
+    anybuild.run/config:
+        commands:
+            start: node dist/index.js
+            build: npx typescript
+            install: ""
+        edgejs_enable: true
+        edgejs_precompile: true
+        name: out
+        node_install_inputs:
+            - package.json
+        node_package_manager: bun
+        node_package_name: edgeproxy
+        node_remove_native_binaries: true
+        node_server: hono
+        npm_version: "11"
+        node_build_command: npx typescript
+        bun_version: "1"
+    anybuild.run/provider: node
+    anybuild.run/version: 0.33.2
+    wasmer.io/version: 7.5.0
